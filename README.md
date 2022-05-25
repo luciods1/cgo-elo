@@ -9,7 +9,7 @@ Available operations:
 
 * Elo differential calculation is made using the current player score, the probability of wining against a player B, growth factor (a value that determine how easily our population will growth):
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;S=(c-p)(w)k" title="\Large S=(c-p)(w)k" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;S=(c-p)(w)k" title="\Large S=(c-p(w))k" />
 <br>
 
 Added benchmarks to check the performance between C and Go in this arithmetic operations.
